@@ -6,11 +6,9 @@ public class Task_5 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Введите три числа через Enter: \n");
 
-        int m = sc.nextInt();
-        int min = m;
+        int min = sc.nextInt();
 
         for (int i = 0; i < 2; i++) {
             int a = sc.nextInt();
