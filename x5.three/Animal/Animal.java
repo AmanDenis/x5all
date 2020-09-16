@@ -1,8 +1,8 @@
-package x5.three.Animal;
+package x5all.x5.three.Animal;
 
 public class Animal {
-     String food;
-     String location;
+     public String food;
+     public String location;
 
     public Animal(String food, String location) {
         this.food = food;

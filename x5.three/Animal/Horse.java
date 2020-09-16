@@ -1,6 +1,10 @@
-package x5.three.Animal;
+package x5all.x5.three.Animal;
 
 public class Horse extends Animal {
+
+    String horse;
+
+
     public Horse(String food, String location) {
         super(food, location);
     }

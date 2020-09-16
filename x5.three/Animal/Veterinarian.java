@@ -1,4 +1,4 @@
-package x5.three.Animal;
+package x5all.x5.three.Animal;
 
 public class Veterinarian {
 

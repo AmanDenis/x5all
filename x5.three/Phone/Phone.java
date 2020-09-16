@@ -1,15 +1,47 @@
-package x5.three.Phone;
+package x5all.x5.three.Phone;
 
 public class Phone {
 
 
-    int number;
-    String model;
-    double weight;
+    private int number;
+    private String model;
+    private double weight;
     private String name;
 
-    Phone() {
+    public Phone() {
 
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public void setWeight(double weight) {
+        this.weight = weight;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String receiveCall(String name) {

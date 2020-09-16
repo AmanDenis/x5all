@@ -1,4 +1,4 @@
-package x5.three.Student;
+package x5all.x5.three.Student;
 
 public class Main {
     public static void main(String[] args) {

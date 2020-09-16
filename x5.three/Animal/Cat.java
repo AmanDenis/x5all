@@ -1,6 +1,9 @@
-package x5.three.Animal;
+package x5all.x5.three.Animal;
 
 public class Cat extends Animal {
+
+    String cat;
+
     public Cat(String food, String location) {
         super(food, location);
     }
