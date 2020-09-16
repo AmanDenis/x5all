@@ -1,23 +1,23 @@
-package x5.second;
+package x5all.x5.second;
 
 import java.util.Scanner;
 
 public class Task_5 {
     public static void main(String[] args) {
-        System.out.println("Введите три числа через пробел: ");
 
         Scanner sc = new Scanner(System.in);
-        String number = sc.nextLine();
-        sc.close();
-        String str[] = number.split(" ");
-        int maxNum = Integer.parseInt(str[0]);
 
-        for (String s : str) {
-            if (Integer.parseInt(s) > maxNum) {
-                maxNum = Integer.parseInt(s);
+        System.out.print("Введите три числа через Enter: \n");
+
+        int m = sc.nextInt();
+        int min = m;
+
+        for (int i = 0; i < 2; i++) {
+            int a = sc.nextInt();
+            if (a < min) {
+                min = a;
             }
         }
-
-        System.out.println(maxNum);
+        System.out.println("Наименьшее: " + min);
     }
 }
