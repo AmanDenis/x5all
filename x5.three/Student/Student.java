@@ -1,11 +1,28 @@
 package x5all.x5.three.Student;
 
 public class Student {
-    public String firstName, lastName, group;
-    public int sumGrants;
-    double averageMark;
+    protected static int sumGrants;
+    private String firstName, lastName, group;
+    protected double averageMark;
 
-    public Student() {
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public int getSumGrants() {
+        return sumGrants;
+    }
+
+    public double getAverageMark() {
+        return averageMark;
     }
 
     public Student(String firstName, String lastName, String group, int sumGrants, double averageMark) {
@@ -16,7 +33,7 @@ public class Student {
         this.averageMark = averageMark;
     }
 
-    public double getScholarship(double averageMark) {
+    public double getScholarship() {
         if (averageMark == 5) {
             sumGrants = 100;
         } else {

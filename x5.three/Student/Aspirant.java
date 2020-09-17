@@ -1,19 +1,17 @@
 package x5all.x5.three.Student;
 
 public class Aspirant extends Student {
-    public String scientWork;
+    private String scientWork;
 
-    public Aspirant() {
-    }
-
-    public Aspirant(String firstName, String lastName, String group, int sumGrants, double averageMark,
-                    String scientWork) {
+    public Aspirant(String firstName, String lastName, String group, int sumGrants, double averageMark, String scientWork) {
         super(firstName, lastName, group, sumGrants, averageMark);
         this.scientWork = scientWork;
     }
 
+
+
     @Override
-    public double getScholarship(double averageMark) {
+    public double getScholarship() {
         if (averageMark == 5) {
             sumGrants = 200;
         } else {
