@@ -2,7 +2,12 @@ package x5all.x5.three.Animal;
 
 public class Cat extends Animal {
 
-    String cat;
+    private String cat;
+
+    public Cat(String food, String location, String cat) {
+        super(food, location);
+        this.cat = cat;
+    }
 
     public Cat(String food, String location) {
         super(food, location);

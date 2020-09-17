@@ -1,8 +1,16 @@
 package x5all.x5.three.Animal;
 
 public class Animal {
-     public String food;
-     public String location;
+     private String food;
+     private String location;
+
+    public String getFood() {
+        return food;
+    }
+
+    public String getLocation() {
+        return location;
+    }
 
     public Animal(String food, String location) {
         this.food = food;
