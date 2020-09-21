@@ -1,7 +1,7 @@
 package x5all.x5.three.Student;
 
 public class Student {
-    protected static int sumGrants;
+    private int sumGrants;
     private String firstName, lastName, group;
     protected double averageMark;
 

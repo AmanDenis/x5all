@@ -1,8 +1,8 @@
 package x5all.x5.three.Student;
 
 public class Aspirant extends Student {
-    private String scientWork;
-
+    protected String scientWork;
+    private int sumGrants;
     public Aspirant(String firstName, String lastName, String group, int sumGrants, double averageMark, String scientWork) {
         super(firstName, lastName, group, sumGrants, averageMark);
         this.scientWork = scientWork;
